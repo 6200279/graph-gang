@@ -1,0 +1,10 @@
+//declare the media player and file to have class scope
+ final File file = new File("x.mp4");
+    final String MEDIA_URL = file.toURI().toString();
+
+    // Create a Media
+    final Media media = new Media(MEDIA_URL);
+
+    // Create a Media Player
+    final MediaPlayer player = new MediaPlayer(media);
+  
